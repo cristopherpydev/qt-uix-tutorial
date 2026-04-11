@@ -1,0 +1,40 @@
+{
+  "1234": [
+    {
+      "servicio": "gmail.com",
+      "usuario_cuenta": "1234@gmail.com",
+      "contrasenia": "Gm1234_test!"
+    },
+    {
+      "servicio": "github.com",
+      "usuario_cuenta": "user1234",
+      "contrasenia": "Gh1234_test!"
+    }
+  ],
+  "root": [
+    {
+      "servicio": "server-local",
+      "usuario_cuenta": "root",
+      "contrasenia": "SrvRoot_test1!"
+    },
+    {
+      "servicio": "admin-panel",
+      "usuario_cuenta": "root_admin",
+      "contrasenia": "AdmRoot_test2!"
+    }
+  ],
+  "ana": [
+    {
+      "servicio": "twitter.com",
+      "usuario_cuenta": "@ana_test",
+      "contrasenia": "TwAna_test!"
+    }
+  ],
+  "pepe": [
+    {
+      "servicio": "facebook.com",
+      "usuario_cuenta": "pepe.test",
+      "contrasenia": "FbPepe_test!"
+    }
+  ]
+}
