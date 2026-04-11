@@ -29,7 +29,7 @@ class Dashboard(object):
 
         self.passwords = None
         self.plain_passwords = []
-        
+
         # ============ actual user config ============= #
         
         self.actual_username = None
