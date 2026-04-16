@@ -6,7 +6,7 @@ A brief and basic tutorial introducing to UIX / events programming using Python 
 
 # Introduction / Introducción.
 
-## ENG 🇬🇧 (UNDER CONSTRUCTION)
+## 🇬🇧 ENG  (UNDER CONSTRUCTION)
 The main goal of this tutorial is to set up a basic approachal to the main functionalities of the framework along with some useful programming techniques. Feel free to check out every single project to obtain:
 1. An useful guide with all the theory needed.
 2. A focused and functional mini-project.
