@@ -13,11 +13,14 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QTableWidget" name="table">
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>30</y>
+     <y>50</y>
      <width>491</width>
      <height>481</height>
     </rect>
@@ -45,7 +48,7 @@
    <property name="geometry">
     <rect>
      <x>590</x>
-     <y>30</y>
+     <y>20</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -54,7 +57,7 @@
     <string>Agregar cuenta</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btn_agregar_cuenta_2">
+  <widget class="QPushButton" name="btn_cerrar_sesion">
    <property name="geometry">
     <rect>
      <x>590</x>
