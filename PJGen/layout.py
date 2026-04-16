@@ -9,6 +9,7 @@
 ################################################################################
 
 from backend import *
+from pdf_utils import generate_rpg_pdf 
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -18,7 +19,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QComboBox, QGroupBox, QLabel,
     QLineEdit, QPushButton, QSizePolicy, QSpinBox,
-    QTextEdit, QWidget)
+    QTextEdit, QWidget, QFileDialog)
 dataset_classes = fetch_all_classes()
 dataset_backgrounds = fetch_all_backgrounds()
 dataset_races = fetch_all_races()
@@ -83,18 +84,48 @@ class Layout(object):
         self.saveButton.setObjectName(u"saveButton")
         self.saveButton.setGeometry(QRect(580, 480, 121, 41))
 
-        # configs
+        #==================== CONSTRUCTION =====================#
+
         self.cbBoxAlignment.addItems(dataset_alignments)
         self.cbBoxBackground.addItems(dataset_backgrounds)
         self.cbBoxClass.addItems(dataset_classes)
         self.cbBoxRace.addItems(dataset_races)
+        
+        #==================== SLOTS =====================#
 
-
+        self.saveButton.clicked.connect(self.report_data)
 
         self.retranslateUi(Form)
 
         QMetaObject.connectSlotsByName(Form)
     # setupUi
+    def report_data(self):
+        if not self.tEditChName.text():
+            return
+        if not self.textEdit.toPlainText():
+            return
+        character_data = [
+            self.tEditChName.text(),
+            self.cbBoxRace.currentText(),
+            self.cbBoxClass.currentText(),
+            self.cbBoxAlignment.currentText(),
+            self.cbBoxBackground.currentText(),
+            self.lvlSpinBox.value(),
+            self.textEdit.toPlainText(),
+        ]
+        file_path, _ = QFileDialog.getSaveFileName(
+            None, 
+            "Save current character sheet", 
+            f"{character_data[0]}.pdf", 
+            "PDF Files (*.pdf)"
+        )
+
+        #if user chose a directory
+        if file_path:
+            try:
+                generate_rpg_pdf(character_data, file_path)
+            except Exception as e:
+                print(f"Error: {e}")
 
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
