@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Qt Designer](https://img.shields.io/badge/Qt_Designer-41CD52?style=for-the-badge&logo=Qt&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=Qt&logoColor=white)
 # Introduction to UIX building and events programming with Python / Introducción al diseño de interfaces y programación de eventos con Python
 A brief and basic tutorial introducing to UIX / events programming using Python + Pyside6 + QT. [UNDER CONSTRUCTION]
 
