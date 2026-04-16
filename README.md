@@ -6,7 +6,7 @@ A brief and basic tutorial introducing to UIX / events programming using Python 
 
 # Introduction / Introducción.
 
-## ENG (UNDER CONSTRUCTION)
+## ENG 🇬🇧 (UNDER CONSTRUCTION)
 The main goal of this tutorial is to set up a basic approachal to the main functionalities of the framework along with some useful programming techniques. Feel free to check out every single project to obtain:
 1. An useful guide with all the theory needed.
 2. A focused and functional mini-project.
@@ -18,7 +18,7 @@ In order of difficulty, I recommend you to follow this path if you are newbie:
 2. keyri ➤ This app tracks all the passwords you need. Don't ever write them on a paper sheet! It teaches data management and dynamic listing.
 3. PJGen ➤ This app writes a simple character sheet for your agnostic roleplaying game with basic fields. You may also download it! It teaches data validation and many other widgets. 
 
-## ES
+## 🇪🇸 ES
 
 El objetivo principal de este tutorial es establecer un enfoque básico para las funcionalidades principales del framework, junto con algunas técnicas de programación útiles. No dudes en explorar cada proyecto para obtener:
 1. Una guía útil con toda la teoría necesaria.
