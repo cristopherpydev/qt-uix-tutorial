@@ -2,7 +2,25 @@
 ![Qt Designer](https://img.shields.io/badge/Qt_Designer-41CD52?style=for-the-badge&logo=Qt&logoColor=white)
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=Qt&logoColor=white)
 # Introduction to UIX building and events programming with Python / Introducción al diseño de interfaces y programación de eventos con Python
-A brief and basic tutorial introducing to UIX / events programming using Python + Pyside6 + QT. [UNDER CONSTRUCTION]
+A brief and basic tutorial introducing to UIX / events programming using Python + Pyside6 + QT. Learn how to design your own windows while having some fun!
+
+You will find out that in these mini-projects there are enough information in order to inspire yourself and to learn by the example! 
+## How to download this repository
+
+1. Create a new folder in a location of your choice. 
+
+2. Open your VSC instance.
+
+3. Move to the new folder once created.
+
+4. Start up a new terminal of your choice.
+
+5. Execute the following command:
+   
+```
+git clone https://github.com/cristopherpydev/qt-uix-tutorial.git
+```
+Congratulations! Now you have access to this repo in your own PC!
 
 # Introduction / Introducción
 <details>
