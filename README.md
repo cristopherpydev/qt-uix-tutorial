@@ -7,7 +7,7 @@ A brief and basic tutorial introducing to UIX / events programming using Python 
 # Introduction / Introducción
 <details>
   <summary>Disclaimer!</summary>
-  This tutorial itself only provides useful techniques that you can implement in your projects while learning. Even if basic theory is provided, I encourage you to investigate by yourself in the official documentation in order to see how some widgets work and how can we upgrade our projects. This is, in fact, a guide for actual developers and I will cover some terms that an standard use should not know. It is also recommended that you have atleast an intermediate Python level in order to follow up the guidelines in each project. 
+  This tutorial itself only provides useful techniques that you can implement in your projects while learning. Even if basic theory is provided, I encourage you to investigate by yourself in the official documentation in order to see how some widgets work and how can we upgrade our projects. This is, in fact, a guide for actual developers and I will cover some terms that an standard user should not know. It is also recommended that you have atleast an intermediate Python level in order to follow up the guidelines in each project. 
 </details>
 
 ## 🇬🇧 ENG  (UNDER CONSTRUCTION)
